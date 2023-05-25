@@ -7,3 +7,32 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+.logo{
+    display: flex;
+    justify-content: space-between;
+}
+.logo button{
+    border: none;
+    background: none;
+}
+.menu{
+    position: relative;
+    top:20px;
+right: 30px;
+}
+.menuList ul{
+/*position: absolute;
+
+    align-items: end;
+    justify-items: flex-end;
+    */
+
+
+    float: right;
+    margin-right: 32px;
+
+    list-style-type: none;
+}
+.menuList ul li{
+    padding-bottom: 20px;
+}
