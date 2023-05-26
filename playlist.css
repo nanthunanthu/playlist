@@ -117,3 +117,43 @@ right: 30px;
     margin-top: 30px;
     grid-column-gap: 10px; 
 }
+.h2{
+    position: relative;
+    margin-left: 20%;
+    font-size: 36px;
+    padding-top: 36px;
+}
+.album{
+    position: relative;
+    display: grid;
+    grid-template-columns:repeat(auto-fill,minmax(100px,3fr)) ;
+    grid-column-gap: 2px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+
+}
+.about{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+.about ol{
+    list-style-type: none;
+}
+hr{
+    max-width: 200px;
+}
+.arrow{
+    display: flex;
+}
+.about input{
+    background: none;
+    border-bottom-color:wheat ;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 300px;
+    height: 40px;
+}
